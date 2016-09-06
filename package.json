@@ -1,7 +1,7 @@
 {
   "name": "gulp-pxtorem-plus",
   "description": "A gulp plugin for postcss-pxtorem-plus",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "author": "cuth",
   "license": "MIT",
   "repository": {
@@ -16,7 +16,7 @@
   "dependencies": {
     "gulp-util": "^3.0.7",
     "postcss": "^5.1.2",
-    "postcss-pxtorem-plus": "^3.4.0",
+    "postcss-pxtorem-plus": "^3.4.1",
     "through2": "^2.0.1"
   },
   "keywords": [
