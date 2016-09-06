@@ -5,13 +5,13 @@ This is a Gulp plugin for [postcss-pxtorem](https://github.com/cuth/postcss-pxto
 ### Installation
 
 ```shell
-npm install gulp-pxtorem --save-dev
+npm install gulp-pxtorem-plus --save-dev
 ```
 
 ### Example
 
 ```js
-var pxtorem = require('gulp-pxtorem');
+var pxtorem = require('gulp-pxtorem-plus');
 
 gulp.task('css', function() {
     gulp.src('css/**/*.css')
@@ -25,7 +25,7 @@ gulp.task('css', function() {
 Pass in two option objects. The first one for [postcss-pxtorem](https://github.com/cuth/postcss-pxtorem) options, the second for [postcss](https://github.com/postcss/postcss) options.
 
 ```js
-var pxtorem = require('gulp-pxtorem');
+var pxtorem = require('gulp-pxtorem-plus');
 
 var pxtoremOptions = {
     replace: false
