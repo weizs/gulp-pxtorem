@@ -1,6 +1,6 @@
-# gulp-pxtorem [![NPM version](https://badge.fury.io/js/gulp-pxtorem.svg)](http://badge.fury.io/js/gulp-pxtorem)
+# gulp-pxtorem-plus [![NPM version](https://badge.fury.io/js/gulp-pxtorem-plus.svg)](http://badge.fury.io/js/gulp-pxtorem-plus)
 
-This is a Gulp plugin for [postcss-pxtorem](https://github.com/cuth/postcss-pxtorem).
+This is a Gulp plugin for [postcss-pxtorem-plus](https://github.com/weizs/postcss-pxtorem-plus).
 
 ### Installation
 
@@ -22,7 +22,7 @@ gulp.task('css', function() {
 
 ### Options
 
-Pass in two option objects. The first one for [postcss-pxtorem](https://github.com/cuth/postcss-pxtorem) options, the second for [postcss](https://github.com/postcss/postcss) options.
+Pass in two option objects. The first one for [postcss-pxtorem-plus](https://github.com/weizs/postcss-pxtorem-plus) options, the second for [postcss](https://github.com/postcss/postcss) options.
 
 ```js
 var pxtorem = require('gulp-pxtorem-plus');

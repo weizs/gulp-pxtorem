@@ -3,9 +3,9 @@
 var gutil = require('gulp-util');
 var through = require('through2');
 var postcss = require('postcss');
-var pxtorem = require('postcss-pxtorem');
+var pxtorem = require('postcss-pxtorem-plus');
 
-var PLUGIN_NAME = 'gulp-pxtorem';
+var PLUGIN_NAME = 'gulp-pxtorem-plus';
 
 module.exports = function (options, postcssOptions) {
 
